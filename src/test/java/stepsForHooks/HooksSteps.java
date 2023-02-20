@@ -16,7 +16,7 @@ public class HooksSteps
 {
 	WebDriver driver;
 	
-	@Before
+	@Before("@Smoke")
 	public void browserSetup()
 	{
 		System.out.println("I am inside browserSetup");
